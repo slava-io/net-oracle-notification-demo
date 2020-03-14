@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <UserSecretsId>dotnet-WorkerService-686A4607-DAC8-4397-8EA1-FB5636335851</UserSecretsId>
+        <RootNamespace>OraNot</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="ConsoleTables" Version="2.4.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.2" />
+        <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.60" />
+    </ItemGroup>
+</Project>

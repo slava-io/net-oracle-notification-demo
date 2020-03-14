@@ -1,0 +1,17 @@
+version: '2'
+services:
+  adyensync-oracle:
+    container_name: adyensync-oracle
+    image: adyensync-oracle
+    build: ./docker/
+    environment:
+      - ORACLE_ALLOW_REMOTE=true
+    ports:
+      - 1521:1521
+    networks:
+      - privatenetwork
+ 
+networks: 
+  privatenetwork:
+    external: 
+      name: adyensync-network

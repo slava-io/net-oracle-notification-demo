@@ -1,0 +1,3 @@
+echo exit | sqlplus ADYENSYNC/development@localhost:1521/XE @02_insert_sample_data.sql
+
+echo Finished inserting Oracle sample-data.

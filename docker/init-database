@@ -1,0 +1,4 @@
+echo exit | sqlplus ADYENSYNC/development@localhost:1521/XE @00_remove_schema.sql
+echo exit | sqlplus ADYENSYNC/development@localhost:1521/XE @01_insert_schema.sql
+
+echo Finished initializing Oracle database.
