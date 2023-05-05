@@ -10,6 +10,6 @@
         <PackageReference Include="ConsoleTables" Version="2.4.1" />
         <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
         <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.2" />
-        <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.60" />
+        <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.180" />
     </ItemGroup>
 </Project>
